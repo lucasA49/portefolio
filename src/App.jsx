@@ -1,10 +1,10 @@
 import  Background  from './Background'
-import Spinner from './Spinner'
 function App() {
   return (
-    // <Background/>
-    <Spinner/>
+    <Background/>
   )
 }
 
 export default App
+// import Spinner from './Spinner'
+    // <Spinner/>
