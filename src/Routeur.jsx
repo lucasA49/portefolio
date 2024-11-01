@@ -11,7 +11,10 @@ const router = createBrowserRouter([
                 index: true,
                 element: <Home/>,
             },
-        
+            {
+                path: "prout",
+                element: <Home />,
+            },
 
 
         ],

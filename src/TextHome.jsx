@@ -78,7 +78,6 @@ function TextHome() {
                     className={"p-text-home"}
                 />
             </article>
-            <ButtonNav />
         </section>
     );
 }
