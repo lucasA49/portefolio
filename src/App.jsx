@@ -1,10 +1,14 @@
 import  Background  from './Background'
+import TextHome from './TextHome'
 function App() {
+  
   return (
-    <Background/>
+    <>
+    <Background />
+    <TextHome />
+    </>
+
   )
 }
 
 export default App
-// import Spinner from './Spinner'
-    // <Spinner/>
