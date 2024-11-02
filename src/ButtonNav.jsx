@@ -18,7 +18,7 @@ function ButtonNav() {
                     />
                 </div>
             </NavLink>
-            <NavLink to="/" className="">
+            <NavLink to="/accueil" className="">
     <img src={Home} className="logo-home" alt="Accueil" />
 </NavLink>
 

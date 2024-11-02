@@ -2,24 +2,32 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Contact from "./Pages/Contact";
 import Accueil from "./Pages/Accueil";
+import TextHome from "./TextHome";
 
 const router = createBrowserRouter([
+   
     {
-        path: "/",
-        element: <App />,
-        children: [
-             {
-                index: true,
-                element: <Accueil/>,
-             },
-{
-    path: "Contact",
-    element: <Contact/>,
-},
+      path: "/accueil",
+      errorElement: <h1>Page non trouvée</h1>,
+      element:(
 
-        ],
-        errorElement: <h1>not found</h1>,
+   <>
+        <Accueil />,
+        <App/>
+        <TextHome/>
+        </>
+    )
     },
-]);
+    {
+      path: "contact",
+      element: (
+      <>
+      <App/>
+      <Contact />,
+      
+      </> 
+      )
+    },
+  ]);
 
 export default router;
