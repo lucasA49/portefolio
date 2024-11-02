@@ -1,6 +1,7 @@
 import "./btn-nav.css";
 import { NavLink } from "react-router-dom";
 import Home from "./assets/Home.png"
+
 function ButtonNav() {
     return (
         <section className="section-btn">
@@ -35,6 +36,14 @@ function ButtonNav() {
                     />
                 </div>
             </NavLink>
+                    <NavLink
+                        to="/contact"
+                    >
+                        <div className="btn">
+                            <p>Contact</p>
+
+                        </div>
+                    </NavLink>
         </section>
     );
 }

@@ -1,21 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import Home from "./Home";
+import Contact from "./Pages/Contact";
+import Accueil from "./Pages/Accueil";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
         children: [
-            {
+             {
                 index: true,
-                element: <Home/>,
-            },
-            {
-                path: "prout",
-                element: <Home />,
-            },
-
+                element: <Accueil/>,
+             },
+{
+    path: "Contact",
+    element: <Contact/>,
+},
 
         ],
         errorElement: <h1>not found</h1>,

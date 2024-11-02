@@ -1,5 +1,4 @@
 import  Background  from './Background'
-import TextHome from './TextHome'
 import ButtonNav from './ButtonNav'
 function App() {
   
@@ -7,7 +6,6 @@ function App() {
     <>
     <ButtonNav/>
     <Background />
-    <TextHome />
     </>
 
   )

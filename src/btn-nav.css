@@ -1,12 +1,12 @@
 .section-btn {
     display: flex;
-    gap: 150px;
+    gap: 120px;
     margin-top: 10px;
     margin-bottom: 70px;
     max-width: 70%;
     justify-content: center;
     align-items: center;
-    margin-left: 12rem;
+    margin-left: 18rem;
 }
 
 .btn {
@@ -59,8 +59,8 @@
 
 .logo-home {
     margin-top: 0.8rem;
-    width: 150px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     display: flex;
 }
 
