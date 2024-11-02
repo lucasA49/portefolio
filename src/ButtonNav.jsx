@@ -1,11 +1,11 @@
 import "./btn-nav.css";
 import { NavLink } from "react-router-dom";
-
+import Home from "./assets/Home.png"
 function ButtonNav() {
     return (
         <section className="section-btn">
             <NavLink
-                to="/projet" 
+                to="/projet"
                 className="a-btn"
             >
                 <div className="btn">
@@ -17,6 +17,11 @@ function ButtonNav() {
                     />
                 </div>
             </NavLink>
+            <NavLink to="/" className="">
+    <img src={Home} className="logo-home" alt="Accueil" />
+</NavLink>
+
+        
             <NavLink
                 to="/about"
                 className="a-btn"

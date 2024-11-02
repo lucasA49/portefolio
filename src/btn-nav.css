@@ -6,7 +6,7 @@
     max-width: 70%;
     justify-content: center;
     align-items: center;
-
+    margin-left: 12rem;
 }
 
 .btn {
@@ -18,7 +18,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .btn:hover {
@@ -32,7 +31,7 @@
     transform: scale(1);
 }
 
-.btn > p {
+.btn>p {
     z-index: 2;
     font-size: large;
     color: white;
@@ -42,7 +41,7 @@
     text-decoration: none;
 }
 
-.btn > img {
+.btn>img {
     position: absolute;
     margin-top: 40px;
 }
@@ -58,15 +57,29 @@
     animation: 5s fleche infinite 6s;
 }
 
+.logo-home {
+    margin-top: 0.8rem;
+    width: 150px;
+    height: 50px;
+    display: flex;
+}
+
+.logo-home:hover {
+    transition: all 0.2s;
+    transform: scale(1.2);
+}
+
 @keyframes fleche {
     0% {
         transform: translatey(0px);
         height: 35px;
     }
+
     15% {
         transform: translatey(-5px);
         height: 35px;
     }
+
     35% {
         transform: translatey(10px);
         height: 45px;
@@ -78,22 +91,27 @@
     }
 }
 
-
 @media (max-width: 480px) {
     .section-btn {
         gap: 5px;
         justify-content: center;
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 3rem;
     }
 
-    .btn{
+    .btn {
         width: 100px;
         height: 30px;
     }
 
-    .btn > p {
+    .btn>p {
         font-size: 0.5rem;
     }
 
+    .logo-home {
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
 }
